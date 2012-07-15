@@ -1,0 +1,96 @@
+<html>	
+	<head>
+		<title>Fer Perales</title>
+	</head>
+	<body>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		
+		
+		<div class="container-fluid">
+		
+			<header class="row">
+			<div class="span12 header">
+				<h1 class="centered-text">Welcome to Fer Perales</h1>
+			</div>
+		</header>
+	
+		
+		
+		
+			<div class="row-fluid">
+				<nav class="span3">
+					<ul class="nav nav-pills nav-stacked hidden-phone">
+						<li><a href="#about">About</a></li>
+						<li><a href="#cv">My CV</a></li>
+						<li><a href="#mywork">Things I've done</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+				
+				<div class="span9">
+					<section id="about" class="well">
+						<h1>About me</h1>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo ante, ultricies ut sollicitudin hendrerit, pulvinar mollis nunc. Vivamus bibendum iaculis nibh, nec hendrerit lorem venenatis sit amet. In lacinia, lectus sed tincidunt consectetur, ipsum tortor aliquet dolor, vel eleifend leo nibh at arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi condimentum condimentum risus ut suscipit. Curabitur non tortor at risus sodales aliquet ut ut augue. Nam sed risus sagittis lacus ornare suscipit et ac lectus. Fusce mollis accumsan odio, sed eleifend mauris vestibulum ac. Aenean ornare, nisi at tincidunt molestie, nunc sem ultricies urna, et posuere diam est id magna.						
+						</p>
+					</section>
+					
+					<section id="cv" class="well">
+						<h1>CV me</h1>
+						<p>
+						Fusce egestas eros eu lacus porta cursus. Nulla tincidunt dignissim purus eu porttitor. Phasellus dapibus, sem sit amet convallis gravida, ante quam rutrum eros, at laoreet neque neque non lorem. Duis dignissim lobortis felis, quis luctus nulla congue condimentum. In quam purus, convallis sed commodo ut, tincidunt et nulla. Nam suscipit augue et odio condimentum fringilla. Curabitur ac libero felis. Nam id purus vel dui lobortis commodo. Vivamus tincidunt, odio a porta venenatis, enim est faucibus velit, quis malesuada metus nulla in eros. Morbi suscipit ultricies leo, sed rhoncus elit tristique sit amet. Phasellus pretium tortor eu turpis adipiscing ut dictum diam tempus. Sed luctus varius scelerisque. Morbi at velit pretium massa vestibulum convallis rutrum in lectus. Cras eu sem at nunc lobortis malesuada. Pellentesque nunc quam, interdum quis bibendum at, ultrices a nulla. Nam tempor lobortis sapien at iaculis.
+						</p>
+					</section>
+					
+					<section id="mywork" class="well">
+						<h1>My work</h1>
+						<p>
+						Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam molestie nisl nec lorem malesuada a cursus ante lobortis. Aliquam ultrices, ante nec luctus ultrices, tellus metus laoreet orci, in molestie est tellus a magna. Vestibulum in nisl a nunc porta vehicula. Morbi aliquet dapibus accumsan. Sed mollis arcu a elit porttitor sit amet fringilla lorem hendrerit. Nam quis ipsum arcu. Phasellus in purus sapien. Vivamus suscipit porttitor tortor, sit amet rhoncus purus convallis a. Nunc laoreet quam ut ipsum varius pharetra. Morbi scelerisque tincidunt eros ac venenatis.
+						</p>
+					</section>
+					
+					<section id="contact" class="well">
+						<h1>Contact</h1>
+						<p>
+						molestie et accumsan at, pulvinar vel eros. Fusce pretium facilisis ligula, at rhoncus turpis congue quis. Cras adipiscing adipiscing nibh, eu tincidunt ligula cursus vel. Duis risus ante, tristique et interdum at, rutrum ac lacus. Suspendisse potenti. Nunc sodales enim et magna consequat mattis. Sed ac nunc eu tellus pellentesque porta dignissim sed odio. Nulla dolor erat, vehicula a egestas eget, consectetur sit amet sem. Fusce libero lectus, porttitor ut porta ut, porta nec sem. Nam ut diam ac massa feugiat venenatis. Curabitur gravida lacinia facilisis. Nunc ac enim id lectus mollis luctus non non enim.
+						</p>
+					</section>
+				
+				</div>
+				
+			</div>
+			
+		</div>
+
+		<script type="text/javascript">// <![CDATA[
+			$(document).ready(function() {
+				function filterPath(string) {
+					return string
+						.replace(/^\//,'')
+						.replace(/(index|default).[a-zA-Z]{3,4}$/,'')			
+						.replace(/\/$/,'');
+				}
+				
+				$('a[href*=#]').each(function() {
+					if ( filterPath(location.pathname) == filterPath(this.pathname)
+					&& location.hostname == this.hostname
+					&& this.hash.replace(/#/,'') ) {
+						var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+						var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+						if ($target) {
+							var targetOffset = $target.offset().top;
+							$(this).click(function() {
+							$('html, body').animate({scrollTop: targetOffset}, 700);
+					   return false;
+					 });
+				  }
+				}
+			  });
+			});// ]]>
+		</script>
+
+	</body>
+</html>
