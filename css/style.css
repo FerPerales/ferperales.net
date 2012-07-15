@@ -2,6 +2,21 @@
     text-align:center	
 } 
 
+.white-text{
+	color: #FFFFFF;
+}
+}
+
 .header{
-	padding:4%
+	padding:4%;
+
+}
+
+
+small{
+	color: #FFFFF
+}
+
+.footer{
+	background-color: #000000;
 }
