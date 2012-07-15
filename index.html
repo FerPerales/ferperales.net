@@ -4,6 +4,7 @@
 	</head>
 	<body>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/bootstrap-responsive.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
@@ -21,14 +22,54 @@
 		
 		
 			<div class="row-fluid">
-				<nav class="span3">
-					<ul class="nav nav-pills nav-stacked hidden-phone">
-						<li><a href="#about">About</a></li>
-						<li><a href="#cv">My CV</a></li>
-						<li><a href="#mywork">Things I've done</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
+				<div class="span3">
+					<nav>
+						<ul class="nav nav-pills nav-stacked hidden-phone">
+							<li><a href="#about">About</a></li>
+							<li><a href="#cv">My CV</a></li>
+							<li><a href="#mywork">Things I've done</a></li>
+							<li><a href="#contact">Contact</a></li>											
+						</ul>										
+						<h2 class="centered-text">Social stuff</h2>
+						<div>						
+							<script>
+							new TWTR.Widget({
+							  version: 2,
+							  type: 'profile',
+							  rpp: 4,
+							  interval: 30000,
+							  width: 250,
+							  height: 300,
+							  theme: {
+								shell: {
+								  background: '#ffffff',
+								  color: '#000000'
+								},
+								tweets: {
+								  background: '#f5f5f5',
+								  color: '#000000',
+								  links: '#2787db'
+								}
+							  },
+							  features: {
+								scrollbar: false,
+								loop: false,
+								live: false,
+								behavior: 'all'
+							  }
+							}).render().setUser('FerPeralesM').start();
+							</script>
+							
+							<a href="https://twitter.com/FerPeralesM" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @FerPeralesM</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+							</script>
+						</div>
+					</nav>
+					
+					
+				</div>
+				
+				
 				
 				<div class="span9">
 					<section id="about" class="well">
@@ -92,7 +133,7 @@
 			});// ]]>
 		</script>
 		
-		<!-- Google analytics code --->
+		<!-- Google Analytics code --->
 		<script type="text/javascript">
 
 		  var _gaq = _gaq || [];
