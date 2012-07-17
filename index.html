@@ -1,7 +1,7 @@
 <!DOCTYPE html>	
 	<head>
 		<title>Fer Perales</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 		
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 		<script type="text/javascript" src="http://widgets.twimg.com/j/2/widget.js" charset="utf-8"></script>		
@@ -11,7 +11,7 @@
 		<link href="css/bootstrap-responsive.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		
-		
+		<meta id="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Google Analytics code --->
 			<script type="text/javascript">
 
@@ -26,10 +26,9 @@
 			  })();
 
 			</script>
-
 	</head>
 	<body>
-		
+	
 	<!--Fork me on Github ribbon
 	-------------------------------------------------------------------------------------------------->
 		<div class="hidden-phone">
@@ -57,8 +56,8 @@
 					</div>								
 				</div>
 			</div>
-	<!--Header with title
-	--------------------------------------------------------------------------------------------------->
+		<!--Header with title
+		---------------------------------------------------------------------------------------------->
 			<header class="row-fluid">
 				<div class="span12 page-header ">							
 					<h1 class="centered-text">Welcome to Fer Perales	
@@ -66,12 +65,14 @@
 					</h1>
 				</div>	
 			</header>
-	<!--Sidebar
+	<!--Main container
 	--------------------------------------------------------------------------------------------------->
 			<div class="row-fluid">
-			<!-- Menu bar
+			<!-- Sidebar
 			------------------------------------------------------------------------------------------->			
 				<div class="span3 hidden-phone">
+					<!-- Navigation sidebar
+					----------------------------------------------------------------------------------->					
 					<nav>
 						<ul class="nav nav-pills nav-list nav-stacked">
 							<li><a href="#about">About me</a></li>
@@ -84,16 +85,22 @@
 							<li class="divider"></li>
 						</ul>										
 						<h2 class="centered-text">Social stuff</h2>
+					<!-- Twitter 'Follow me' button
+					--------------------------------------------------------------------------------------->							
 						<div>						
 							<p class="centered-text">
 							<a href="https://twitter.com/FerPeralesM" class="twitter-follow-button" data-show-count="false">Follow @FerPeralesM</a>
-							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+							<script>
+								!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+								if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";
+								fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+							</script>
 							</p>
 							<p>Actually, I don't usually write tweets in English but feel free to give me a shout either in Spanish or English</p>
 							<p class="centered-text">
 							
-				<!-- Twitter widget
-				--------------------------------------------------------------------------------------->							
+					<!-- Twitter widget
+					--------------------------------------------------------------------------------------->							
 							<script>
 								new TWTR.Widget({
 								  version: 2,
@@ -129,13 +136,16 @@
 					<p class="centered-text"><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=FerPerales&type=follow&count=false"
 					allowtransparency="true" frameborder="0" scrolling="0" width="165px" height="20px"></iframe></p>
 					<p>Feel free to take a look at some of my code</p>
-
 				</div>
 				
 				
 			<!-- Content
-			-------------------------------------------------------------------------------------->
-				<div class="span9">
+			-------------------------------------------------------------------------------------->	
+				<div class="span9">	
+				
+				<!-- About me section
+				-------------------------------------------------------------------------------------------->
+										
 					<section  class="well">
 						<h1 id="about">About me</h1>
 						<p>
@@ -145,7 +155,9 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo ante, ultricies ut sollicitudin hendrerit, pulvinar mollis nunc. Vivamus bibendum iaculis nibh, nec hendrerit lorem venenatis sit amet. In lacinia, lectus sed tincidunt consectetur, ipsum tortor aliquet dolor, vel eleifend leo nibh at arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi condimentum condimentum risus ut suscipit. Curabitur non tortor at risus sodales aliquet ut ut augue. Nam sed risus sagittis lacus ornare suscipit et ac lectus. Fusce mollis accumsan odio, sed eleifend mauris vestibulum ac. Aenean ornare, nisi at tincidunt molestie, nunc sem ultricies urna, et posuere diam est id magna.						
 						</p>
 					</section>
-					
+				
+				<!-- My CV section
+				-------------------------------------------------------------------------------------------->						
 					<section class="well">
 						<h1 id="cv">My CV</h1>
 						<p>
@@ -156,18 +168,14 @@
 						</p>						
 					</section>
 					
+				<!-- My work section
+				-------------------------------------------------------------------------------------------->					
 					<section class="well">
-						<h1 id="mywork">Things I've done</h1>
+						<h1 id="mywork" >Things I've done</h1>
 						<p>
 						Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam molestie nisl nec lorem malesuada a cursus ante lobortis. Aliquam ultrices, ante nec luctus ultrices, tellus metus laoreet orci, in molestie est tellus a magna. Vestibulum in nisl a nunc porta vehicula. Morbi aliquet dapibus accumsan. Sed mollis arcu a elit porttitor sit amet fringilla lorem hendrerit. Nam quis ipsum arcu. Phasellus in purus sapien. Vivamus suscipit porttitor tortor, sit amet rhoncus purus convallis a. Nunc laoreet quam ut ipsum varius pharetra. Morbi scelerisque tincidunt eros ac venenatis.
 						</p>
-						
-						<div class="alert">
-  <button class="close" data-dismiss="alert">×</button>
-  <strong>Warning!</strong> Best check yo self, you're not looking too good.
-</div>
-						
-						
+																
 						<ul class="thumbnails">
 							<li class="span3">
 								<a href="projects.html#videoadmin" class="thumbnail">
@@ -177,17 +185,17 @@
 								<p>A ERP prototype written in Java for a fictional videocenter franchise done during the 2011 Software Engineering summer class.</p>
 							</li>
 							<li class="span3">
-								<a href="#" class="thumbnail">
+								<a href="projects.html#project2" class="thumbnail">
 								<img src="http://placehold.it/260x180" alt="">
 								</a>
 							</li>
 							<li class="span3">
-								<a href="#" class="thumbnail">
+								<a href="projects.html#project3" class="thumbnail">
 								<img src="http://placehold.it/260x180" alt="">
 								</a>
 							</li>
 							<li class="span3">
-								<a href="#" class="thumbnail">
+								<a href="projects.html#project4" class="thumbnail">
 								<img src="http://placehold.it/260x180" alt="">
 								</a>
 							</li>							
@@ -197,7 +205,9 @@
 							Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam molestie nisl nec lorem malesuada a cursus ante lobortis. Aliquam ultrices, ante nec luctus ultrices, tellus metus laoreet orci, in molestie est tellus a magna. Vestibulum in nisl a nunc porta vehicula. Morbi aliquet dapibus accumsan. Sed mollis arcu a elit porttitor sit amet fringilla lorem hendrerit. Nam quis ipsum arcu. Phasellus in purus sapien. Vivamus suscipit porttitor tortor, sit amet rhoncus purus convallis a. Nunc laoreet quam ut ipsum varius pharetra. Morbi scelerisque tincidunt eros ac venenatis.
 						</p>						
 					</section>
-					
+				
+				<!-- Contact section
+				-------------------------------------------------------------------------------------------->	
 					<section class="well">
 						<h1 id="contact">Contact</h1>
 						<p>
@@ -228,41 +238,11 @@
 			
 			</footer>
 		</div>
-		
-		
-		
-		
-		
-		
+
 		
 		<!--Smooth scroll code
 		------------------------------------------------------------------------------------>
-		<script type="text/javascript">// <![CDATA[
-			$(document).ready(function() {
-				function filterPath(string) {
-					return string
-						.replace(/^\//,'')
-						.replace(/(index|default).[a-zA-Z]{3,4}$/,'')			
-						.replace(/\/$/,'');
-				}
-				
-				$('a[href*=#]').each(function() {
-					if ( filterPath(location.pathname) == filterPath(this.pathname)
-					&& location.hostname == this.hostname
-					&& this.hash.replace(/#/,'') ) {
-						var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
-						var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-						if ($target) {
-							var targetOffset = $target.offset().top;
-							$(this).click(function() {
-							$('html, body').animate({scrollTop: targetOffset}, 700);
-					   return false;
-					 });
-				  }
-				}
-			  });
-			});// ]]>
-		</script>
+		
 		
 	</body>
 </html>
