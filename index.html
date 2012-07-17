@@ -93,37 +93,37 @@
 							<p class="centered-text">
 							
 				<!-- Twitter widget
-				--------------------------------------------------------------------------------------->
+				--------------------------------------------------------------------------------------->							
 							<script>
-							new TWTR.Widget({
-							  version: 2,
-							  type: 'profile',
-							  rpp: 4,
-							  interval: 30000,
-							  width: 250,
-							  height: 300,
-							  theme: {
-								shell: {
-								  background: '#ffffff',
-								  color: '#000000'
-								},
-								tweets: {
-								  background: '#f5f5f5',
-								  color: '#000000',
-								  links: '#2787db'
-								}
-							  },
-							  features: {
-								scrollbar: false,
-								loop: false,
-								live: false,
-								behavior: 'all'
-							  }
-							}).render().setUser('FerPeralesM').start();
-							</script>
-							</p>
+								new TWTR.Widget({
+								  version: 2,
+								  type: 'profile',
+								  rpp: 10,
+								  interval: 30000,
+								  width: 'auto',
+								  height: 300,
+								  theme: {
+									shell: {
+									  background: '#f5f5f5',
+									  color: '#000000'
+									},
+									tweets: {
+									  background: '#ffffff',
+									  color: '#000000',
+									  links: '#2787db'
+									}
+								  },
+								  features: {
+									scrollbar: true,
+									loop: true,
+									live: true,
+									behavior: 'default'
+								  }
+								}).render().setUser('FerPeralesM').start();
+							</script>							
 						</div>
 					</nav>
+					<hr/>
 					<!-- Follow me on Github Button
 					--------------------------------------------------------------------------------------->
 					<p class="centered-text"><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=FerPerales&type=follow&count=false"
