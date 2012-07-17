@@ -2,13 +2,31 @@
 	<head>
 		<title>Fer Perales</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>--->
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap-alert.js"></script>
-		<script type="text/javascript" src="http://widgets.twimg.com/j/2/widget.js" charset="utf-8"></script>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://widgets.twimg.com/j/2/widget.js" charset="utf-8"></script>		
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/bootstrap-responsive.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
+		
+		
+		<!-- Google Analytics code --->
+			<script type="text/javascript">
+
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-33391311-1']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+
+			</script>
+
 	</head>
 	<body>
 		
@@ -21,23 +39,22 @@
 					alt="Fork me on GitHub">
 			</a>
 		</div>
-		
-	
 	
 		
 	<!--Main content
 	-------------------------------------------------------------------------------------------------->
 		<div class="container-fluid">
+
 		<!--Available for hire alert
 		---------------------------------------------------------------------------------------------->
-			<div class="row pull-right">				
+			<div class="row pull-right">	
 				<div class="span4">
-					<div class="alert alert-success centered-text">											
-						<button type="button" class="close" data-dismiss="alert">&times;</button>	
-						<h3>
+					<div class="alert alert-block alert-success">											
+						<!--<button class="close" data-dismiss="alert">&times;</button>	--->
+						<h3 class="centered-text">
 							<a href="contact">Available for hire / freelance</a>										
 						</h3>
-					</div>			
+					</div>								
 				</div>
 			</div>
 	<!--Header with title
@@ -56,11 +73,15 @@
 			------------------------------------------------------------------------------------------->			
 				<div class="span3 hidden-phone">
 					<nav>
-						<ul class="nav nav-pills nav-stacked">
+						<ul class="nav nav-pills nav-list nav-stacked">
 							<li><a href="#about">About me</a></li>
+							<li class="divider"></li>
 							<li><a href="#cv">My CV</a></li>
+							<li class="divider"></li>
 							<li><a href="#mywork">Things I've done</a></li>
+							<li class="divider"></li>
 							<li><a href="#contact">Contact</a></li>											
+							<li class="divider"></li>
 						</ul>										
 						<h2 class="centered-text">Social stuff</h2>
 						<div>						
@@ -141,6 +162,11 @@
 						Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam molestie nisl nec lorem malesuada a cursus ante lobortis. Aliquam ultrices, ante nec luctus ultrices, tellus metus laoreet orci, in molestie est tellus a magna. Vestibulum in nisl a nunc porta vehicula. Morbi aliquet dapibus accumsan. Sed mollis arcu a elit porttitor sit amet fringilla lorem hendrerit. Nam quis ipsum arcu. Phasellus in purus sapien. Vivamus suscipit porttitor tortor, sit amet rhoncus purus convallis a. Nunc laoreet quam ut ipsum varius pharetra. Morbi scelerisque tincidunt eros ac venenatis.
 						</p>
 						
+						<div class="alert">
+  <button class="close" data-dismiss="alert">×</button>
+  <strong>Warning!</strong> Best check yo self, you're not looking too good.
+</div>
+						
 						
 						<ul class="thumbnails">
 							<li class="span3">
@@ -202,6 +228,13 @@
 			
 			</footer>
 		</div>
+		
+		
+		
+		
+		
+		
+		
 		<!--Smooth scroll code
 		------------------------------------------------------------------------------------>
 		<script type="text/javascript">// <![CDATA[
@@ -231,20 +264,5 @@
 			});// ]]>
 		</script>
 		
-		<!-- Google Analytics code --->
-		<script type="text/javascript">
-
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-33391311-1']);
-		  _gaq.push(['_trackPageview']);
-
-		  (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-
-		</script>
-
 	</body>
 </html>
