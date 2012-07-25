@@ -28,7 +28,15 @@
 			</script>
 	</head>
 	<body>
-	
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>	
 	<!--Fork me on Github ribbon
 	-------------------------------------------------------------------------------------------------->
 		<div class="hidden-phone">
@@ -85,6 +93,10 @@
 							<li class="divider"></li>
 						</ul>										
 						<h2 class="centered-text">Social stuff</h2>
+						
+						
+						
+
 					<!-- Twitter 'Follow me' button
 					--------------------------------------------------------------------------------------->							
 						<div>						
@@ -131,6 +143,17 @@
 						</div>
 					</nav>
 					<hr/>
+					<!-- Facebook Page
+					---------------------------------------------------------------------------------------->
+					<p>FB Page where I share news about programming, design, startups, and more</p>
+					<div class="fb-like-box" data-href="http://www.facebook.com/FerPeralesM" 
+						data-width="292" data-show-faces="true" data-stream="true" data-header="true">
+					</div>
+					
+					
+					
+					
+					
 					<!-- Follow me on Github Button
 					--------------------------------------------------------------------------------------->
 					<p class="centered-text"><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=FerPerales&type=follow&count=false"
