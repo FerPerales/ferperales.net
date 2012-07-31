@@ -29,16 +29,16 @@
 			</script>
 	</head>
 	<body>
-	<div id="fb-root"></div>
-	<script type="text/javascript">(function(d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) return;
-			js = d.createElement(s); js.id = id;
-			js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-	</script>	
-	<!--Fork me on Github ribbon-->
+		<div id="fb-root"></div>
+		<script type="text/javascript">(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>	
+		<!--Fork me on Github ribbon-->
 		<div class="hidden-phone">
 			<a href="https://github.com/FerPerales">
 				<img style="position: absolute; top: 0; left: 0; border: 0;" 
@@ -432,55 +432,54 @@
 		
 		<!--Smooth scroll code-->
 		<script>
-			$(document).ready(function() {
-  function filterPath(string) {
-  return string
-    .replace(/^\//,'')
-    .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
-    .replace(/\/$/,'');
-  }
-  var locationPath = filterPath(location.pathname);
-  var scrollElem = scrollableElement('html', 'body');
- 
-  $('a[href*=#]').each(function() {
-    var thisPath = filterPath(this.pathname) || locationPath;
-    if (  locationPath == thisPath
-    && (location.hostname == this.hostname || !this.hostname)
-    && this.hash.replace(/#/,'') ) {
-      var $target = $(this.hash), target = this.hash;
-      if (target) {
-        var targetOffset = $target.offset().top;
-        $(this).click(function(event) {
-          event.preventDefault();
-          $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
-            location.hash = target;
-          });
-        });
-      }
-    }
-  });
- 
-  // use the first element that is "scrollable"
-  function scrollableElement(els) {
-    for (var i = 0, argLength = arguments.length; i <argLength; i++) {
-      var el = arguments[i],
-          $scrollElement = $(el);
-      if ($scrollElement.scrollTop()> 0) {
-        return el;
-      } else {
-        $scrollElement.scrollTop(1);
-        var isScrollable = $scrollElement.scrollTop()> 0;
-        $scrollElement.scrollTop(0);
-        if (isScrollable) {
-          return el;
-        }
-      }
-    }
-    return [];
-  }
- 
-});
-			
+		$(document).ready(function() {
+			function filterPath(string) {
+		  	return string
+			    .replace(/^\//,'')
+		    	.replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+		    	.replace(/\/$/,'');
+			  }
+			  var locationPath = filterPath(location.pathname);
+			  var scrollElem = scrollableElement('html', 'body');
+			 
+			  $('a[href*=#]').each(function() {
+			  	var thisPath = filterPath(this.pathname) || locationPath;
+			    if (  locationPath == thisPath
+			    && (location.hostname == this.hostname || !this.hostname)
+			    && this.hash.replace(/#/,'') ) {
+			      var $target = $(this.hash), target = this.hash;
+			      if (target) {
+			        var targetOffset = $target.offset().top;
+			        $(this).click(function(event) {
+			          event.preventDefault();
+			          $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+			            location.hash = target;
+			          });
+			        });
+			      }
+			    }
+			  });
+			 
+			  // use the first element that is "scrollable"
+			  function scrollableElement(els) {
+			    for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+			      var el = arguments[i],
+			          $scrollElement = $(el);
+			      if ($scrollElement.scrollTop()> 0) {
+			        return el;
+			      } else {
+			        $scrollElement.scrollTop(1);
+			        var isScrollable = $scrollElement.scrollTop()> 0;
+			        $scrollElement.scrollTop(0);
+			        if (isScrollable) {
+			          return el;
+			        }
+			      }
+			    }
+			    return [];
+			  }
+			 
+			});			
 		</script>
 		
 	</body>
