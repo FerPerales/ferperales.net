@@ -7,8 +7,7 @@
 		
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
-		
-		
+		<script type="text/javascript" src="js/bootstrap-carousel.js"></script>				
 	</head>
 	
 	<body>
@@ -28,7 +27,7 @@
 						  <!-- Carousel items -->
 						 	<div class="carousel-inner">
 						  		<div class="item active">
-							    	<a href="#VideoAdmin"><img src="http://placehold.it/320x240"></a>
+							    	<a href="#videoadmin"><img src="http://placehold.it/320x240"></a>
 							    	<div class="carousel-caption">
 						                  <h4>VideoAdmin</h4>
 						                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -143,8 +142,14 @@
 			</div>								
 		</div>	
 	</body>
+	<script>
+		$('.carousel').carousel({
+	  		interval: 3000
+		})		
+	</script>
+	
 			<!--Smooth scroll code-->
-		<script>
+	<script>
 		$(document).ready(function() {
 			function filterPath(string) {
 		  	return string
@@ -193,14 +198,8 @@
 			  }
 			 
 			});			
-		</script>
-		
-	<script type="text/javascript" src="js/bootstrap-carousel.js"></script>
-	<script>
-		$('.carousel').carousel({
-	  		interval: 3000
-		})		
 	</script>
+		
 	
 
 </html>
