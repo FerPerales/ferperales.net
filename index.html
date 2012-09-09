@@ -193,7 +193,7 @@
 					<!-- Skills table-->
 						<h3>Skills table</h3>
 																		
-						<table class="table table-condensed" width="auto">	
+						<table class="table table-condensed">	
 							<thead>
 								<tr>
 									<td><strong>Technology</strong></td>
@@ -204,21 +204,21 @@
 							<tr>
 								<td>Java</td>
 								<td>
-									<div id="javaRating" data-rating="3">										
+									<div id="javaRating" data-rating="16">										
 									</div>															
 								</td>
 							</tr>								
 							<tr>
 								<td>C</td>
 								<td>
-									<div id="CRating" data-rating="3">
+									<div id="CRating" data-rating="12">
       								</div>																	
 								</td>
 							</tr>
 							<tr>
 								<td>C#</td>
 								<td>
-									<div id="CSharpRating" data-rating="3">
+									<div id="CSharpRating" data-rating="8">
       								</div>								
 								</td>
 							</tr>
@@ -239,21 +239,21 @@
 							<tr>
 								<td>Python</td>
 								<td>
-									<div id="pythonRating" data-rating="3">
+									<div id="pythonRating" data-rating="5">
 									</div>      														
 								</td>
 							</tr>
 							<tr>
 								<td>Ruby</td>
 								<td>
-									<div id="rubyRating" data-rating="3">
+									<div id="rubyRating" data-rating="2">
       								</div>							
 								</td>
 							</tr>
 							<tr>
 								<td>JavaScript</td>
 								<td>
-									<div id="JSRating" data-rating="3">
+									<div id="JSRating" data-rating="4">
       								</div>								
 								</td>
 							</tr>
@@ -436,24 +436,17 @@
 			for (id in elements){
 				$(elements[id]).raty({
 				  readOnly : true,
-				  number : 10,
+				  number : 20,
 				  score: function() {
 				    return $(this).attr('data-rating');
-				  }
-				  
+				  },
+				  starHalf  : 'star-half-big.png',
+  				  starOff   : 'star-off-big.png',
+  				  starOn    : 'star-on-big.png',
+  				  width     : '100%'				  
 				});
 			}	
-		/*
-		var element = '#javaRating';
-		
-		$(element).raty({
-		  number: 10,
-		  readOnly : true,
-		  score: function() {
-		    return $(this).attr('data-rating');
-		  }
-		});
-		*/
+
 		</script>	
 	</body>
 </html>
