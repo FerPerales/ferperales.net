@@ -196,77 +196,68 @@
 						<table class="table table-condensed" width="auto">	
 							<thead>
 								<tr>
-									<td>Technology</td>
-									<td>Percentage of knowledge</td>
+									<td><strong>Technology</strong></td>
+									<td><strong>Hours having fun with</strong> <small><img src="img/star-on.png"/> &asymp; 10</small></td>
 								</tr>
 								
 							</thead>
 							<tr>
 								<td>Java</td>
 								<td>
-									<div class="progress progress-info" style="margin-bottom: 9px;">
-        								<div class="bar" style="width: 80%">80%</div>
-      								</div>																		
+									<div id="javaRating" data-rating="3">										
+									</div>															
 								</td>
 							</tr>								
 							<tr>
 								<td>C</td>
 								<td>
-									<div class="progress progress-info" style="margin-bottom: 9px;">
-        								<div class="bar" style="width: 60%">60%</div>
+									<div id="CRating" data-rating="3">
       								</div>																	
 								</td>
 							</tr>
 							<tr>
 								<td>C#</td>
 								<td>
-									<div class="progress progress-info" style="margin-bottom: 9px;">
-        								<div class="bar" style="width: 60%">60%</div>
+									<div id="CSharpRating" data-rating="3">
       								</div>								
 								</td>
 							</tr>
 							<tr>
 								<td>LISP</td>
 								<td>
-									<div class="progress progress-info" style="margin-bottom: 9px;">
-        								<div class="bar" style="width: 40%">40%</div>
-      								</div>								
+									<div id="lispRating" data-rating="3">										
+									</div>							
 								</td>
 							</tr>
 							<tr>
 								<td>ProLog</td>
 								<td>
-									<div class="progress progress-info" style="margin-bottom: 9px;">
-        								<div class="bar" style="width: 40%">40%</div>
+									<div id="prologRating" data-rating="3">
       								</div>								
 								</td>
 							</tr>
 							<tr>
 								<td>Python</td>
 								<td>
-									<div class="progress progress-info" style="margin-bottom: 9px;">
-        								<div class="bar" style="width: 60%">60%</div>
-      								</div>								
+									<div id="pythonRating" data-rating="3">
+									</div>      														
 								</td>
 							</tr>
 							<tr>
 								<td>Ruby</td>
 								<td>
-									<div class="progress progress-info" style="margin-bottom: 9px;">
-        								<div class="bar" style="width: 40%">40%</div>
-      								</div>								
+									<div id="rubyRating" data-rating="3">
+      								</div>							
 								</td>
 							</tr>
 							<tr>
 								<td>JavaScript</td>
 								<td>
-									<div class="progress progress-info" style="margin-bottom: 9px;">
-        								<div class="bar" style="width: 40%">40%</div>
+									<div id="JSRating" data-rating="3">
       								</div>								
 								</td>
 							</tr>
-						</table>		
-						
+						</table>								
 					</section>
 					
 				<!-- My work section-->					
@@ -436,6 +427,33 @@
 			    return [];
 			  }			
 			});			
-		</script>		
+		</script>
+		<!--- Initialize ratings --->	
+		<script>
+		
+			var elements = ['#javaRating', '#CRating', '#CSharpRating',
+			'#prologRating', '#lispRating', '#JSRating', '#pythonRating', '#rubyRating'];
+			for (id in elements){
+				$(elements[id]).raty({
+				  readOnly : true,
+				  number : 10,
+				  score: function() {
+				    return $(this).attr('data-rating');
+				  }
+				  
+				});
+			}	
+		/*
+		var element = '#javaRating';
+		
+		$(element).raty({
+		  number: 10,
+		  readOnly : true,
+		  score: function() {
+		    return $(this).attr('data-rating');
+		  }
+		});
+		*/
+		</script>	
 	</body>
 </html>
