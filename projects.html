@@ -31,63 +31,63 @@
 					  <!-- Carousel items -->
 					 	<div class="carousel-inner">
 					  		<div class="item active">
-						    	<a href="#videoadmin"><img src="img/thumbnails/videoadmin.png"></a>
+						    	<a href="#videoadmin"><img src="img/thumbnails/videoadmin.png" alt="videoadmin"></a>
 						    	<div class="carousel-caption">
 					                  <h4>VideoAdmin</h4>
 					                  <p>A ERP prototype for a fictional videocenter franchise</p>
 				                </div>
 						    </div>
 						    <div class="item">						    	
-						    	<a href="#LTSP3"><img src="img/thumbnails/260x180.gif"></a>
+						    	<a href="#LTSP3"><img src="img/thumbnails/260x180.gif" alt="ltsp"></a>
 						    	<div class="carousel-caption">
 							    	<h4>LTSP3</h4>
 					                <p>An LTSP server with virtual machines running Mandriva</p>
 				                </div>				                						    	
 						    </div>
 						    <div class="item">						    	
-						    	<a href="#udeg"><img src="img/thumbnails/scolarship.png"></a>
+						    	<a href="#udeg"><img src="img/thumbnails/scolarship.png" alt="udeg"></a>
 						    	<div class="carousel-caption">
 							    	<h4>Scholaships Unit</h4>					                
 							    	<p>Software for administration of scolarships and student exchanges at C.U.C.E.I.</p>
 					           </div>						           
 					    	</div>
 						    <div class="item">						    	
-						    	<a href="#sharealla"><img src="img/thumbnails/sharealla.png"></a>
+						    	<a href="#sharealla"><img src="img/thumbnails/sharealla.png" alt="sharealla"></a>
 						    	<div class="carousel-caption">
 							    	<h4>Sharealla</h4>
 					                <p>Check-in and share the apps that matter to you</p>
 				                </div>
 						    </div>
 						    <div class="item">						    	
-						    	<a href="#html5"><img src="img/thumbnails/html5.png"></a>
+						    	<a href="#html5"><img src="img/thumbnails/html5.png" alt="html5"></a>
 						    	<div class="carousel-caption">
 							    	<h4>HTML5 training</h4>
 					                <p>Final actitivy for the Microsoft HTML5 Developer Fundamentals Training</p>
 					           </div>
 				          	</div>
 						    <div class="item">						    	
-						    	<a href="#ceic"><img src="img/thumbnails/NWN.png"></a>
+						    	<a href="#ceic"><img src="img/thumbnails/NWN.png" alt="ceic"></a>
 						    	<div class="carousel-caption">
 							    	<h4>NWN Module</h4>
 					                <p>A Neverwinter Nights module as part of an investigation regarding decision making at C.E.I.C.</p>
 					           </div>
 				           </div>
 						    <div class="item">						    	
-						    	<a href="#memorama"><img src="img/thumbnails/260x180.gif"></a>
+						    	<a href="#memorama"><img src="img/thumbnails/260x180.gif" alt="memorama"></a>
 						    	<div class="carousel-caption">
 							    	<h4>Memorama</h4>
 					                <p>A game based on concentration</p>
 					           </div>
 				           </div>
 						    <div class="item">						    	
-						    	<a href="#crossWords"><img src="img/thumbnails/crosswords.png"></a>
+						    	<a href="#crossWords"><img src="img/thumbnails/crosswords.png" alt="cross words"></a>
 						    	<div class="carousel-caption">
 							    	<h4>Cross Words</h4>
 					                <p>A console game that allows you to create you own cross words puzzles and solve them</p>
 					           </div>
 				           </div>							   				           
 						    <div class="item">						    	
-						    	<a href="#todoList"><img src="img/thumbnails/todolist.png"></a>
+						    	<a href="#todoList"><img src="img/thumbnails/todolist.png" alt="toDo list"></a>
 						    	<div class="carousel-caption">
 							    	<h4>ToDo list</h4>
 					                <p>An Astrid-like toDo list app</p>
@@ -156,63 +156,64 @@
 				<p>More info: not available</p>												
 														
 			</div>
-		</div>	
+		</div>
+		
+		<script>
+			$('.carousel').carousel({
+		  		interval: 3000
+			})		
+		</script>
+		
+		<!--Smooth scroll code-->
+		<script>
+			$(document).ready(function() {
+				function filterPath(string) {
+			  	return string
+				    .replace(/^\//,'')
+			    	.replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+			    	.replace(/\/$/,'');
+				  }
+				  var locationPath = filterPath(location.pathname);
+				  var scrollElem = scrollableElement('html', 'body');
+				 
+				  $('a[href*=#]').each(function() {
+				  	var thisPath = filterPath(this.pathname) || locationPath;
+				    if (  locationPath == thisPath
+				    && (location.hostname == this.hostname || !this.hostname)
+				    && this.hash.replace(/#/,'') ) {
+				      var $target = $(this.hash), target = this.hash;
+				      if (target) {
+				        var targetOffset = $target.offset().top;
+				        $(this).click(function(event) {
+				          event.preventDefault();
+				          $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+				            location.hash = target;
+				          });
+				        });
+				      }
+				    }
+				  });
+				 
+				  // use the first element that is "scrollable"
+				  function scrollableElement(els) {
+				    for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+				      var el = arguments[i],
+				          $scrollElement = $(el);
+				      if ($scrollElement.scrollTop()> 0) {
+				        return el;
+				      } else {
+				        $scrollElement.scrollTop(1);
+				        var isScrollable = $scrollElement.scrollTop()> 0;
+				        $scrollElement.scrollTop(0);
+				        if (isScrollable) {
+				          return el;
+				        }
+				      }
+				    }
+				    return [];
+				  }				 
+				});			
+		</script>		
 	</body>
-	<script>
-		$('.carousel').carousel({
-	  		interval: 3000
-		})		
-	</script>
-	
-	<!--Smooth scroll code-->
-	<script>
-		$(document).ready(function() {
-			function filterPath(string) {
-		  	return string
-			    .replace(/^\//,'')
-		    	.replace(/(index|default).[a-zA-Z]{3,4}$/,'')
-		    	.replace(/\/$/,'');
-			  }
-			  var locationPath = filterPath(location.pathname);
-			  var scrollElem = scrollableElement('html', 'body');
-			 
-			  $('a[href*=#]').each(function() {
-			  	var thisPath = filterPath(this.pathname) || locationPath;
-			    if (  locationPath == thisPath
-			    && (location.hostname == this.hostname || !this.hostname)
-			    && this.hash.replace(/#/,'') ) {
-			      var $target = $(this.hash), target = this.hash;
-			      if (target) {
-			        var targetOffset = $target.offset().top;
-			        $(this).click(function(event) {
-			          event.preventDefault();
-			          $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
-			            location.hash = target;
-			          });
-			        });
-			      }
-			    }
-			  });
-			 
-			  // use the first element that is "scrollable"
-			  function scrollableElement(els) {
-			    for (var i = 0, argLength = arguments.length; i <argLength; i++) {
-			      var el = arguments[i],
-			          $scrollElement = $(el);
-			      if ($scrollElement.scrollTop()> 0) {
-			        return el;
-			      } else {
-			        $scrollElement.scrollTop(1);
-			        var isScrollable = $scrollElement.scrollTop()> 0;
-			        $scrollElement.scrollTop(0);
-			        if (isScrollable) {
-			          return el;
-			        }
-			      }
-			    }
-			    return [];
-			  }
-			 
-			});			
-	</script>		
+		
 </html>
