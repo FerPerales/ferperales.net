@@ -224,20 +224,7 @@
       								</div>								
 								</td>
 							</tr>
-							<tr>
-								<td>LISP</td>
-								<td>
-									<div id="lispRating" data-rating="2">										
-									</div>							
-								</td>
-							</tr>
-							<tr>
-								<td>ProLog</td>
-								<td>
-									<div id="prologRating" data-rating="2">
-      								</div>								
-								</td>
-							</tr>
+
 							<tr>
 								<td>Python</td>
 								<td>
@@ -256,6 +243,13 @@
 								<td>JavaScript</td>
 								<td>
 									<div id="JSRating" data-rating="4">
+      								</div>								
+								</td>
+							</tr>
+							<tr>
+								<td>PHP</td>
+								<td>
+									<div id="phpRating" data-rating="2">
       								</div>								
 								</td>
 							</tr>
@@ -396,8 +390,7 @@
 		<script src="js/smoothScroll.js"></script>
 		<!--- Initialize ratings -->	
 		<script>		
-			var elements = ['#javaRating', '#CRating', '#CSharpRating',
-			'#prologRating', '#lispRating', '#JSRating', '#pythonRating', '#rubyRating'];
+			var elements = ['#javaRating', '#CRating', '#CSharpRating', '#phpRating', '#JSRating', '#pythonRating', '#rubyRating'];
 			for (id in elements){
 				$(elements[id]).raty({
 				  readOnly : true,
