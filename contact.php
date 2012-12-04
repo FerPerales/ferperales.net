@@ -68,15 +68,11 @@
 						<a href="skype:ferperalesm?chat"><img src="http://mystatus.skype.com/bigclassic/ferperalesm" style="border: none;" width="182" height="44" alt="My status" /></a>
 					</p>		
 					<p>
-						<a href="index.html">Go back to main page</a>
+						<a href="index.php">Go back to main page</a>
 					</p>
 							
 				</div>								
 			</section>		
-			
-<?php
-	require 'php/footer.php';
-?>
 
 									
 		</div>	
@@ -95,6 +91,10 @@
         </script>
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        
+        			
+<?php
+	require 'php/footer.php';
+?>
+
 	</body>
 </html>

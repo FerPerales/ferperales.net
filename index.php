@@ -59,7 +59,7 @@
 					<div class="alert alert-block alert-success">											
 						<button class="close" data-dismiss="alert">&times;</button>
 						<h3 class="centered-text">
-							<a href="contact.html">Need a developer? Let's talk!</a>										
+							<a href="contact.php">Need a developer? Let's talk!</a>										
 						</h3>
 					</div>								
 				</div>
@@ -275,13 +275,13 @@
 						<h1>Things I've done</h1>
 						<p>
 							Here's a brief selection of, what I consider, my most important works. More projects and its complete info can be found in 
-							<a href="projects.html"> the "projects"</a> section of this page							
+							<a href="projects.php"> the "projects"</a> section of this page							
 						</p>
 																
 						<ul class="thumbnails">
 							<li class="span4">
 								<div class="thumbnail centered-text">
-									<a href="projects.html#videoadmin">
+									<a href="projects.php#videoadmin">
 										<img src="img/thumbnails/videoadmin.png" alt="VideoAdmin thumbnail">
 									</a>
 									<h5>VideoAdmin</h5>
@@ -292,7 +292,7 @@
 							</li>
 							<li class="span4">
 								<div class="thumbnail centered-text">	
-									<a href="projects.html#sharealla">
+									<a href="projects.php#sharealla">
 										<img src="img/thumbnails/sharealla.png" alt="Sharealla thumbnail">
 									</a>
 									<h5>Sharealla</h5>
@@ -303,7 +303,7 @@
 							</li>
 							<li class="span4">
 								<div class="thumbnail centered-text">
-									<a href="projects.html#html5">
+									<a href="projects.php#html5">
 										<img src="img/thumbnails/html5.png" alt="HTML5 thumbnail">
 									</a>
 									<h5>HTML5</h5>
@@ -316,7 +316,7 @@
 						<ul class="thumbnails">
 							<li class="span4">
 								<div class="thumbnail centered-text">
-									<a href="projects.html#LTSP3">
+									<a href="projects.php#LTSP3">
 										<img src="img/thumbnails/260x180.gif" alt="LTSP thumbnail">
 									</a>
 									<h5>LTSP 3</h5>
@@ -327,7 +327,7 @@
 							</li>							
 							<li class="span4">
 								<div class="thumbnail centered-text">
-									<a href="projects.html#udeg">
+									<a href="projects.php#udeg">
 									<img src="img/thumbnails/scolarship.png" alt="UdeG thumbnail">
 									</a>
 									<h5>Scolarships unit</h5>
@@ -338,7 +338,7 @@
 							</li>
 							<li class="span4">
 								<div class="thumbnail centered-text">
-									<a href="projects.html#ceic">
+									<a href="projects.php#ceic">
 										<img src="img/thumbnails/NWN.png" alt="CEIC thumbnail">
 									</a>
 									<h5>NWN Module</h5>
