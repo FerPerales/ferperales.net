@@ -123,7 +123,7 @@
 				<p>Contribution: Front-end maquetation</p>
 				<p>Technologies: HTML5, CCS3, Javascript</p>
 				<p>When: 14th february 2012 - 17th february 2012 during 2nd Startup Weekend GDL</p>
-				<p>More info: <a href=http://sharealla.com">www.sharealla.com</a></p>
+				<p>More info: <a href="http://sharealla.com">www.sharealla.com</a></p>
 				<h1 id="html5" class="centered-text">HTML5 training</h1>
 				<p>Description: Final actitivy for the Microsoft HTML5 Developer Fundamentals Training</p>
 				<p>Contribution: Complete development</p>
