@@ -156,6 +156,11 @@
 				<p>More info: not available</p>												
 														
 			</div>
+			
+<?php
+	require 'php/footer.php';
+?>		
+			
 		</div>
 		
 		<!-- Initialize carousel -->
