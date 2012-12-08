@@ -27,6 +27,7 @@
 					<p>
 						First of all, I appreciate your taking the time to visit my webpage. 	
 					</p>
+								
 					<p>
 						If you want me to colaborate in your project, you can send me and email, add me to gTalk or add me to Skype to make an agreement.
 						I'd love to work with you ;)							
@@ -34,7 +35,11 @@
 					<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
 					<p>
 						<a href="skype:ferperalesm?chat"><img src="http://mystatus.skype.com/bigclassic/ferperalesm" style="border: none;" width="182" height="44" alt="My status" /></a>
-					</p>		
+					</p>	
+					<p>
+						The easiest way to get in contact is a commet via disqus in the form below
+					</p>	
+					<p><div id="disqus_thread"></div></p>			
 					<p>
 						<a href="index.php">Go back to main page</a>
 					</p>
@@ -44,6 +49,11 @@
 
 									
 		</div>	
+
+<?php
+	require 'php/footer.php';
+?>		
+
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
             var disqus_shortname = 'ferperalesblog'; // required: replace example with your forum shortname
@@ -57,9 +67,8 @@
         </script>
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        			
 
-<?php
-	require 'php/footer.php';
-?>
+
 	</body>
 </html>
