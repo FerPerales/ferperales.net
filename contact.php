@@ -46,13 +46,12 @@
 							
 				</div>								
 			</section>		
-
-									
-		</div>	
-
 <?php
 	require 'php/footer.php';
-?>		
+?>										
+		</div>	
+
+
 
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

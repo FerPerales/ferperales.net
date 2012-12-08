@@ -156,13 +156,13 @@
 				<p>More info: not available</p>												
 														
 			</div>
-	
-		</div>
-		
 <?php
 	require 'php/footer.php';
 ?>	
 		
+		</div>
+		
+
 		<!-- Initialize carousel -->
 		<script>
 			$('.carousel').carousel({
