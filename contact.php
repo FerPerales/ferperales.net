@@ -12,46 +12,44 @@
 		<link type="text/css" href="css/style.css" rel="stylesheet">
 	</head>
 	
-	<body>
-		<div class="container-fluid">
-			<header class="row-fluid">
-				<div class="span12 page-header ">							
-					<h1 class="centered-text">Fer Perales	
-						<small>contact</small>					
-					</h1>
-				</div>	
-			</header>
-			
-			<section class="row well">
-				<div class="span12">				
-					<p>
-						First of all, I appreciate your taking the time to visit my webpage. 	
-					</p>
-								
-					<p>
-						If you want me to colaborate in your project, you can send me and email, add me to gTalk or add me to Skype to make an agreement.
-						I'd love to work with you ;)							
-					</p>
-					<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
-					<p>
-						<a href="skype:ferperalesm?chat"><img src="http://mystatus.skype.com/bigclassic/ferperalesm" style="border: none;" width="182" height="44" alt="My status" /></a>
-					</p>	
-					<p>
-						The easiest way to get in contact is a commet via disqus in the form below
-					</p>	
-					<p><div id="disqus_thread"></div></p>			
-					<p>
-						<a href="index.php">Go back to main page</a>
-					</p>
+	<body class="container">
+
+		
+		<header class="row-fluid">
+			<div class="span12 page-header ">							
+				<h1 class="centered-text">Fer Perales	
+					<small>contact</small>					
+				</h1>
+			</div>	
+		</header>
+		
+		<section class="row well">
+			<div class="span12">				
+				<p>
+					First of all, I appreciate your taking the time to visit my webpage. 	
+				</p>
 							
-				</div>								
-			</section>		
+				<p>
+					If you want me to colaborate in your project, you can send me and email, add me to gTalk or add me to Skype to make an agreement.
+					I'd love to work with you ;)							
+				</p>
+				<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+				<p>
+					<a href="skype:ferperalesm?chat"><img src="http://mystatus.skype.com/bigclassic/ferperalesm" style="border: none;" width="182" height="44" alt="My status" /></a>
+				</p>	
+				<p>
+					The easiest way to get in contact is a commet via disqus in the form below
+				</p>	
+				<p><div id="disqus_thread"></div></p>			
+				<p>
+					<a href="index.php">Go back to main page</a>
+				</p>
+						
+			</div>								
+		</section>		
 <?php
 	require 'php/footer.php';
-?>										
-		</div>	
-
-
+?>
 
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -66,8 +64,10 @@
         </script>
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        			
+
+										
+		</body>	
 
 
-	</body>
+
 </html>

@@ -51,7 +51,7 @@
 		</div>
 		
 	<!--Content-->
-		<div class="container-fluid">
+		<div class="container">
 
 		<!--Available for hire alert-->
 			<div class="row pull-right">	
