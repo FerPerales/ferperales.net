@@ -35,8 +35,9 @@
 				</p>
 				<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
 				<p>
-					<a href="skype:ferperalesm?chat"><img src="http://mystatus.skype.com/bigclassic/ferperalesm" style="border: none;" width="182" height="44" alt="My status" /></a>
-				</p>	
+<a href="skype:ferperalesm?chat"><img src="http://download.skype.com/share/skypebuttons/buttons/chat_blue_transparent_97x23.png" style="border: none;" width="97" height="23" alt="Chat with me" /></a>
+
+				</p>
 				<p>
 					The easiest way to get in contact is a commet via disqus in the form below
 				</p>	
