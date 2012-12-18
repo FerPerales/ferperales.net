@@ -13,7 +13,6 @@
 	</head>
 	
 	<body class="container">
-
 		
 		<header class="row-fluid">
 			<div class="span12 page-header ">							
@@ -22,13 +21,12 @@
 				</h1>
 			</div>	
 		</header>
-		
+				
 		<section class="row well">
 			<div class="span12">				
 				<p>
 					First of all, I appreciate your taking the time to visit my webpage. 	
-				</p>
-							
+				</p>						
 				<p>
 					If you want me to colaborate in your project, you can send me and email, add me to gTalk or add me to Skype to make an agreement.
 					I'd love to work with you ;)							
@@ -36,7 +34,6 @@
 				<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
 				<p>
 <a href="skype:ferperalesm?chat"><img src="http://download.skype.com/share/skypebuttons/buttons/chat_blue_transparent_97x23.png" style="border: none;" width="97" height="23" alt="Chat with me" /></a>
-
 				</p>
 				<p>
 					The easiest way to get in contact is a commet via disqus in the form below
@@ -44,8 +41,7 @@
 				<p><div id="disqus_thread"></div></p>			
 				<p>
 					<a href="index.php">Go back to main page</a>
-				</p>
-						
+				</p>					
 			</div>								
 		</section>		
 <?php
@@ -54,8 +50,7 @@
 
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'comentariosferperalesnet'; // required: replace example with your forum shortname
-
+            var disqus_shortname = 'ferperalesnet'; // required: replace example with your forum shortname
             /* * * DON'T EDIT BELOW THIS LINE * * */
             (function() {
                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -64,11 +59,6 @@
             })();
         </script>
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-										
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>						
 		</body>	
-
-
-
 </html>

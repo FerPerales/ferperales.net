@@ -14,8 +14,7 @@
 				<p>							
 					<img src="img/mail.jpg" alt="me@thisdomain.net">													
 				</p>
-			</div>
-		
+			</div>		
 			<div class="span3 offset1 white-text">
 				<div class="addthis_toolbox addthis_32x32_style addthis_default_style">
 					<a class="addthis_button_facebook_follow" addthis:userid="FerPeralesm"></a>
@@ -24,7 +23,7 @@
 					<a class="addthis_button_google_follow" addthis:userid="108653816095447062070"></a>
 					<a class="addthis_button_youtube_follow" addthis:userid="FerPeralesM"></a>
 					<a class="addthis_button_rss_follow" addthis:url="http://blog.ferperales.net/?feed=rss2"></a>
-					</div>
+				</div>
 				<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-5016116372fca99c"></script>				
 			</div>
 		</div>
