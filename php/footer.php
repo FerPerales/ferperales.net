@@ -17,7 +17,7 @@
 				<p>
 					
 					<?php					
-echo 'Lastest update: '.date ("F d Y H:i:s.", filemtime($filename));
+echo 'Latest update: '.date ("F d Y H:i:s", filemtime($filename));
 					?>
 				</p>
 			</div>		
