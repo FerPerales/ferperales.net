@@ -160,6 +160,7 @@
 		
 		</div>
 <?php
+	$filename = new SplFileInfo(__FILE__);
 	require 'php/footer.php';
 ?>	
 

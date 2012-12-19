@@ -14,6 +14,12 @@
 				<p>							
 					<img src="img/mail.jpg" alt="me@thisdomain.net">													
 				</p>
+				<p>
+					
+					<?php					
+echo 'Lastest update: '.date ("F d Y H:i:s.", filemtime($filename));
+					?>
+				</p>
 			</div>		
 			<div class="span3 offset1 white-text">
 				<div class="addthis_toolbox addthis_32x32_style addthis_default_style">
