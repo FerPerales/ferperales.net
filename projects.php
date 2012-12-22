@@ -93,6 +93,13 @@
 					                <p>An Astrid-like toDo list app</p>
 					           </div>
 				           </div> 
+   						   <div class="item">						    	
+						    	<a href="#eventosHG"><img src="img/thumbnails/eventosHG.png" alt="eventos HG"></a>
+						    	<div class="carousel-caption">
+							    	<h4>Eventos HG (Hacker Garage)</h4>
+					                <p>An online platform for event registration created for the CC419 Web Programming course</p>
+					           </div>
+				           </div> 
 					  </div>
 					  <!-- Carousel nav -->
 					  	<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
@@ -153,11 +160,17 @@
 				<p>Contribution: Complete development</p>
 				<p>Technologies: C#, PostgreSQL</p>
 				<p>When: May 2012</p>
-				<p>More info: not available</p>												
-														
+				<p>More info: not available</p>		
+				<h1 id="eventosHG" class="centered-text">Eventos HG (Hacker Garage)</h1>
+				<p>Description: An online platform for event registration created for the CC419 Web Programming course</p>
+				<p>Contribution: Complete development along with <a href="http://twitter.com/hawreghi">@hawreghi
+				</a> and <a href="http://twitter.com/alx_mz">@alx_mz</a></p>
+				<p>Technologies: HTML5, CSS3, JavaScript, Ajax, JQuery, MySQL, PHP, twitter API</p>
+				<p>When: August 2012 - December 2012</p>
+				<p>More info: 
+					<a href="https://github.com/FerPerales/CC419_D04_Eventos">main repo</a> and <a href="https://github.com/hackergarage/events"> new repo hosted at HackerGarage organization account</a>	
+				</p>																								
 			</div>
-
-		
 		</div>
 <?php
 	$filename = new SplFileInfo(__FILE__);
