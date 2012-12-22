@@ -260,11 +260,9 @@
 					<section class="well" id="now">
 						<h1>What I'm doing</h1>
 						<p>Some of the things I've been working on in the last months are:</p>
-						<ul>
-						<li>An expert system - C#</li>
+						<ul>						
 						<li>A Well-formed formulas parser - C#</li>
-						<li>A Middleware - Java</li>
-						<li>An online system for event registration - HTML5/CSS3/Javascript/AJAX/PHP</li>
+						<li>A ToDo list - Ruby on Rails</li>
 						</ul>
 						<p>I'll write more about them as soon as I have some free time</p>
 					</section>	
