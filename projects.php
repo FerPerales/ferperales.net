@@ -168,7 +168,7 @@
 				<p>Technologies: HTML5, CSS3, JavaScript, Ajax, JQuery, MySQL, PHP, twitter API</p>
 				<p>When: August 2012 - December 2012</p>
 				<p>More info: 
-					<a href="https://github.com/FerPerales/CC419_D04_Eventos">main repo</a> and <a href="https://github.com/hackergarage/events"> new repo hosted at HackerGarage organization account</a>	
+					<a href="https://github.com/FerPerales/CC419_D04_Eventos">main repo</a>, <a href="https://github.com/hackergarage/events"> new repo hosted at HackerGarage organization account </a> and <a href="http://alanturing.cucei.udg.mx/duke"> platform demo </a>	
 				</p>																								
 			</div>
 		</div>
