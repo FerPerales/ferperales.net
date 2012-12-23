@@ -259,8 +259,8 @@
 						<h1>What I'm doing</h1>
 						<p>Some of the things I've been working on in the last months are:</p>
 						<ul>						
-						<li>A Well-formed formulas parser - C#</li>
-						<li>A ToDo list - Ruby on Rails</li>
+						<li><a href="https://github.com/FerPerales/WFF-parser">A Well-formed formula parser</a> - Java</li>
+						<li><a href="https://github.com/FerPerales/RailsDO-list">A ToDo list</a> - Ruby on Rails</li>
 						</ul>
 						<p>I'll write more about them as soon as I have some free time</p>
 					</section>	
