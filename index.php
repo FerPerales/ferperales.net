@@ -67,9 +67,7 @@
 		<!--Header with title-->
 			<header class="row-fluid">
 				<div class="span12 page-header ">							
-					<h1 class="centered-text">Welcome to Fer Perales	
-						<small>Site still under construction</small>					
-					</h1>
+					<h1 class="centered-text">Welcome to Fer Perales </h1>
 				</div>	
 			</header>
 		<!--Main container-->
