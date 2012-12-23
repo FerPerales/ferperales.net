@@ -93,7 +93,7 @@
 							I have a <a href="http://blog.ferperales.net">blog</a> written mostly in Spanish where I write about technology, programming, designer, startups, music and more.
 						</p>
 						
-						<script type="text/javascript" src="//p3k.org/rss/index.js?url=http%3A//blog.ferperales.net/%3Ffeed%3Drss2&amp;maxItems=5&amp;width=200&amp;height=-1&amp;radius=5&amp;frameColor=%23C2C2C2&amp;titleBarColor=%23C2C2C2&amp;titleBarTextColor=%23FFFFFF&amp;boxFillColor=%23FFFFFF&amp;textColor=%233F629E&amp;linkColor=%232c7395&amp;fontFace=10pt%20sans-serif&amp;compact=true&amp;showXmlButton=true"></script>
+						<script type="text/javascript" src="//p3k.org/rss/index.js?url=http%3A//ferperales.net/blog/feed;maxItems=5&amp;width=200&amp;height=-1&amp;radius=5&amp;frameColor=%23C2C2C2&amp;titleBarColor=%23C2C2C2&amp;titleBarTextColor=%23FFFFFF&amp;boxFillColor=%23FFFFFF&amp;textColor=%233F629E&amp;linkColor=%232c7395&amp;fontFace=10pt%20sans-serif&amp;compact=true&amp;showXmlButton=true"></script>
 
 						<hr />
 						
