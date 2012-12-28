@@ -259,10 +259,12 @@
 						<h1>What I'm doing</h1>
 						<p>Some of the things I've been working on in the last months are:</p>
 						<ul>						
+						<li><a href="http://fb.com/groups/rubyCUCEI">The rubyCUCEI self-learning group:</a> We gathered every saturday to learn ruby and ruby on rails </a><span class="label label-warning">On hold until january 2013</span>
+							</li>	
 						<li><a href="https://github.com/FerPerales/WFF-parser">A Well-formed formula parser</a> - Java</li>
 						<li><a href="https://github.com/FerPerales/RailsDO-list">A ToDo list</a> - Ruby on Rails</li>
 						</ul>
-						<p>I'll write more about them as soon as I have some free time</p>
+						I'm also thinking about creating an app for the <a href="http://www.sencha.com/html5-is-ready">HTML5 is ready app contest</a> by Sencha but I need some help from a designer. Please <a href="contact.php"> get in touch with me </a> if you feel like teaming up
 					</section>	
 					
 					
