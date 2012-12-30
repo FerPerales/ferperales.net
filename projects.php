@@ -24,8 +24,8 @@
 		</header>
 		
 		<div class="row-fluid">
-			<div class="span2"></div>
-			<div class="span8">
+			<div class="span1"></div>
+			<div class="span10">
 				<div class="well centered-text">
 					<div id="myCarousel" class="carousel slide">
 					  <!-- Carousel items -->
