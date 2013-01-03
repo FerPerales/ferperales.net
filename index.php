@@ -93,7 +93,7 @@
 							I have a <a href="http://blog.ferperales.net">blog</a> written mostly in Spanish where I write about technology, programming, designer, startups, music and more.
 						</p>
 						
-						<script type="text/javascript" src="//p3k.org/rss/index.js?url=http%3A//ferperales.net/blog/feed&amp;maxItems=5&amp;width=200&amp;height=-1&amp;radius=5&amp;frameColor=%23C2C2C2&amp;titleBarColor=%23C2C2C2&amp;titleBarTextColor=%23FFFFFF&amp;boxFillColor=%23FFFFFF&amp;textColor=%233F629E&amp;linkColor=%232c7395&amp;fontFace=10pt%20sans-serif&amp;compact=true&amp;showXmlButton=true"></script>
+						<script type="text/javascript" src="//p3k.org/rss/index.js?url=http%3A//blog.ferperales.net/feed&amp;maxItems=5&amp;width=200&amp;height=-1&amp;radius=5&amp;frameColor=%23C2C2C2&amp;titleBarColor=%23C2C2C2&amp;titleBarTextColor=%23FFFFFF&amp;boxFillColor=%23FFFFFF&amp;textColor=%233F629E&amp;linkColor=%232c7395&amp;fontFace=10pt%20sans-serif&amp;compact=true&amp;showXmlButton=true"></script>
 
 						<hr />
 						
@@ -157,6 +157,7 @@
 				<!-- About me section-->										
 					<section class="well" id="about">
 						<h1>About me</h1>
+						<!--
 						<p>Hi! I'm Fer Perales from Jalisco, Mexico. I study the last year of BSc in Computer Engineering at the <a href="http://www.udg.mx/en">Universidad de Guadalajara</a> campus <a href="http://www.udg.mx/en/university-network/university-centers/cucei">CUCEI</a> (spanish for University Center of Exact Sciences and Engineering)
 						</p>
 						<p>Some of the things I love are: </p>
@@ -172,6 +173,8 @@
 							<li>Artificial intelligence - Neural networks, Expert systems, Fuzzy logic, Bio-inspired systems</li>
 							<li>Mobile OS - Android, Windows Phone</li>									
 						</ul>
+						-->
+						<script src="//about.me/embed/ferperales?image=0&amp;headline=0&amp;apps=0&amp;style=site"></script>
 					</section>
 				
 				<!-- My CV section-->						
