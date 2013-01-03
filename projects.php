@@ -109,10 +109,7 @@
 				<hr>
 			</div>
 
-				
-				
-			<div class="row">
-				
+			<div class="row">				
 				<div class="well well-large span4">
 					<h1 id="videoadmin" class="centered-text">VideoAdmin</h1>	
 					<p>Description: A prototype for a fictional videocenter franchise</p>
@@ -136,9 +133,9 @@
 					<p>Technologies: Java, JDBC, JasperReports, PostgreSQL</p>
 					<p>When: March 2011 - November 2011</p>
 					<p>More info: not available</p>
-				</div>
-				
+				</div>				
 			</div>	
+			
 			<div class="row">
 				<div class="well well-large span4">
 					<h1 id="sharealla" class="centered-text">Sharealla</h1>
@@ -165,6 +162,7 @@
 					<p>More info: not available</p>
 				</div>
 			</div>		
+			
 			<div class="row">
 				<div class="well well-large span4">
 					<h1 id="memorama" class="centered-text">Memorama</h1>
@@ -190,7 +188,8 @@
 					<p>When: May 2012</p>
 					<p>More info: not available</p>		
 				</div>
-			</div>		
+			</div>	
+				
 			<div class="row">
 				<div class="well well-large span4">
 					<h1 id="eventosHG" class="centered-text">Eventos HG (Hacker Garage)</h1>
