@@ -157,23 +157,6 @@
 				<!-- About me section-->										
 					<section class="well" id="about">
 						<h1>About me</h1>
-						<!--
-						<p>Hi! I'm Fer Perales from Jalisco, Mexico. I study the last year of BSc in Computer Engineering at the <a href="http://www.udg.mx/en">Universidad de Guadalajara</a> campus <a href="http://www.udg.mx/en/university-network/university-centers/cucei">CUCEI</a> (spanish for University Center of Exact Sciences and Engineering)
-						</p>
-						<p>Some of the things I love are: </p>
-						<ul>						
-							<li>3D modeling - Blender</li>
-							<li>Graphic design - GIMP, Inkscape</li>
-							<li>Programming - Java, C, C#, Assembler, Python, JavaScript, PHP, Ruby</li>							
-							<li>Music - electric bass</li>
-							<li>Musical production - Audacity, Arduour, Rosegarden, TuxGuitar</li>												
-							<li>Digital photography</li>
-							<li>GNU/Linux Operative Systems - PCLinuxOS user</li>
-							<li>Metal music - Heavy, Thrash, Doom, Power</li>
-							<li>Artificial intelligence - Neural networks, Expert systems, Fuzzy logic, Bio-inspired systems</li>
-							<li>Mobile OS - Android, Windows Phone</li>									
-						</ul>
-						-->
 						<script src="//about.me/embed/ferperales?image=0&amp;headline=0&amp;apps=0&amp;style=site"></script>
 					</section>
 				
@@ -183,9 +166,7 @@
 						
 						<h3>Studies</h3>
 						<ul>
-							<li>BSc Computer Engineering - University of Guadalajara
-								<span class="label label-warning">In Progress</span>
-							</li>
+							<li>B. Sc. Computer Engineering - University of Guadalajara</li>
 							<li>IMB DB2 Certified Academic Associate</li>
 							<li>ICMNJ Certified Teacher Training Program</li>												
 							<li>Microsoft HTML5 &amp; Internet Explorer 9 Developer Fundamentals Training</li>
