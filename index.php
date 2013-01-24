@@ -163,7 +163,7 @@
 				<!-- My CV section-->						
 					<section class="well" id="cv">
 						<h1>My CV</h1>
-						
+						<p>Take a look at my <a href="cv/" target="_blank">CV</a> or keep reading the following summary</p>
 						<h3>Studies</h3>
 						<ul>
 							<li>B. Sc. Computer Engineering - University of Guadalajara</li>
