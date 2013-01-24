@@ -38,7 +38,8 @@
 				<p>
 					The easiest way to get in contact is a commet via disqus in the form below
 				</p>	
-				<p><div id="disqus_thread"></div></p>			
+				<p><div id="disqus_thread"></div></p>		
+				<p>You may want to know why you should let me work with you and maybe my <a href="cv/">CV</a> can help you to make a choice</p>	
 				<p>
 					<a href="index.php">Go back to main page</a>
 				</p>					
