@@ -217,7 +217,7 @@
 							<tr>
 								<td>Ruby</td>
 								<td>
-									<div id="rubyRating" data-rating="2">
+									<div id="rubyRating" data-rating="4">
       								</div>							
 								</td>
 							</tr>
@@ -243,14 +243,12 @@
 						<h1>What I'm doing</h1>
 						<p>Some of the things I've been working on in the last months are:</p>
 						<ul>						
-						<li><a href="http://fb.com/groups/rubyCUCEI">The rubyCUCEI self-learning group:</a> We gathered every saturday to learn ruby and ruby on rails </a><span class="label label-warning">On hold until january 2013</span>
-							</li>	
-						<li><a href="https://github.com/FerPerales/WFF-parser">A Well-formed formula parser</a> - Java</li>
+						<li><a href="http://fb.com/groups/rubyCUCEI">The rubyCUCEI self-learning group:</a> We gathered every saturday to learn ruby and ruby on rails </a><span class="label label-warning">On hold until February 2013 </span></li>	
+						
 						<li><a href="https://github.com/FerPerales/RailsDO-list">A ToDo list</a> - Ruby on Rails</li>
-						<li><a href="http://songfly.me/">Songfly.me</a> - a collaborative social platform in which users from all around the world can upload their tracks, share them with other users and together they can create a brand new song </li>
-						<li>World of Gamecraft - Create a game using Construct2 in 2 weeks as a preparation for the <a href="http://globalgamejam.org">Global Game Jam</a></li>
+						<li><a href="https://github.com/FerPerales/store">A project started in the Ruby on Rails bootcamp by Crowd Interactive</a> - Ruby on Rails</li>
+						<li><a href="http://songfly.me/">Songfly.me</a> - a collaborative social platform in which users from all around the world can upload their tracks, share them with other users and together they can create a brand new song. I'm working in both the front and the back-end </li>						
 						</ul>
-						I'm also thinking about creating an app for the <a href="http://www.sencha.com/html5-is-ready">HTML5 is ready app contest</a> by Sencha but I need some help from a designer. Please <a href="contact.php"> get in touch with me </a> if you feel like teaming up
 					</section>	
 					
 					
