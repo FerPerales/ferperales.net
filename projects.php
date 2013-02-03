@@ -108,102 +108,126 @@
 				</div>
 				<hr>
 			</div>
+		</div>
 
-			<div class="row">				
-				<div class="well well-large span4">
-					<h1 id="videoadmin" class="centered-text">VideoAdmin</h1>	
-					<p>Description: A prototype for a fictional videocenter franchise</p>
-					<p>Contribution: Front-end and DB integration</p>
-					<p>Technologies: Java, Swing, PostgreSQL, JDBC</p>
-					<p>When: June 2012 - July 2012</p>
-					<p>More info: not available</p>	
-				</div>	
-				<div class="well well-large span4">												
-					<h1 id="LTSP3" class="centered-text">LTSP3</h1>
-					<p>Description: LTSP stands for Linux Terminal Server Project and allows many people to simultaneously use the same computer. Applications run on the server with a terminal known as a thin client (also known as an X terminal) handling input and output.</p>
-					<p>Contribution: Complete setup and testing</p>
-					<p>Technologies: BASH</p>
-					<p>When: June 2012</p>
-					<p>More info: not available</p>
-				</div>
-					<div class="well well-large span4">
-					<h1 id="udeg" class="centered-text">Scolarship Unit</h1>
-					<p>Description: Software for administration of scolarships and student exchanges at C.U.C.E.I.</p>
-					<p>Contribution: Complete development</p>
-					<p>Technologies: Java, JDBC, JasperReports, PostgreSQL</p>
-					<p>When: March 2011 - November 2011</p>
-					<p>More info: not available</p>
-				</div>				
+		<div class="row-fluid">			
+			<div class="span1"></div>
+			<div class="well well-large span10">
+				<h1 id="videoadmin" class="centered-text">VideoAdmin</h1>	
+				<p>Description: A prototype for a fictional videocenter franchise</p>
+				<p>Contribution: Front-end and DB integration</p>
+				<p>Technologies: Java, Swing, PostgreSQL, JDBC</p>
+				<p>When: June 2012 - July 2012</p>
+				<p>More info: not available</p>	
 			</div>	
-			
-			<div class="row">
-				<div class="well well-large span4">
-					<h1 id="sharealla" class="centered-text">Sharealla</h1>
-					<p>Description: Check-in and share the apps that matter to you</p>
-					<p>Contribution: Front-end maquetation</p>
-					<p>Technologies: HTML5, CCS3, Javascript</p>
-					<p>When: 14th february 2012 - 17th february 2012 during 2nd Startup Weekend GDL</p>
-					<p>More info: <a href="http://sharealla.com">www.sharealla.com</a></p>
-				</div>
-					<div class="well well-large span4">
-					<h1 id="html5" class="centered-text">HTML5 training</h1>
-					<p>Description: Final actitivy for the Microsoft HTML5 Developer Fundamentals Training</p>
-					<p>Contribution: Complete development</p>
-					<p>Technologies: HTML5, CCS3, Javascript, jQuery</p>
-					<p>When: December 2011 - January 2012</p>
-					<p>More info: <a href="http://ferperales.comoj.com">http://ferperales.comoj.com</a></p>
-				</div>
-				<div class="well well-large span4">
-					<h1 id="ceic" class="centered-text">NWN module</h1>
-					<p>Description: A Neverwinter Nights module as part of an investigation regarding decision making at C.E.I.C.</p>
-					<p>Contribution: Fix previous bugs and enhacement of the module</p>
-					<p>Technologies: NWNScript, Aurora Toolset</p>
-					<p>When: March 2012 - June 2012</p>
-					<p>More info: not available</p>
-				</div>
-			</div>		
-			
-			<div class="row">
-				<div class="well well-large span4">
-					<h1 id="memorama" class="centered-text">Memorama</h1>
-					<p>Description: </p>
-					<p>Contribution: Complete development</p>
-					<p>Technologies: C#</p>
-					<p>When: May 2012</p>
-					<p>More info: <a href="http://github.com/FerPerales/AndroidPairs">http://github.com/FerPerales/AndroidPairs</a></p>
-				</div>
-				<div class="well well-large span4">
-					<h1 id="crossWords" class="centered-text">Cross words</h1>
-					<p>Description: A console cross-word game </p>
-					<p>Contribution: Complete development</p>
-					<p>Technologies: C#</p>
-					<p>When: May 2012</p>
-					<p>More info: not available</p>
-				</div>
-				<div class="well well-large span4">
-					<h1 id="todoList" class="centered-text">ToDo list</h1>
-					<p>Description: A To-DO list inspired by one of the most useful apps I've used: Astrid</p>
-					<p>Contribution: Complete development</p>
-					<p>Technologies: C#, PostgreSQL</p>
-					<p>When: May 2012</p>
-					<p>More info: not available</p>		
-				</div>
-			</div>	
-				
-			<div class="row">
-				<div class="well well-large span4">
-					<h1 id="eventosHG" class="centered-text">Eventos HG (Hacker Garage)</h1>
-					<p>Description: An online platform for event registration created for the CC419 Web Programming course</p>
-					<p>Contribution: Complete development along with <a href="http://twitter.com/hawreghi">@hawreghi
-					</a> and <a href="http://twitter.com/alx_mz">@alx_mz</a></p>
-					<p>Technologies: HTML5, CSS3, JavaScript, Ajax, JQuery, MySQL, PHP, twitter API</p>
-					<p>When: August 2012 - December 2012</p>
-					<p>More info: 
-						<a href="https://github.com/FerPerales/CC419_D04_Eventos">main repo</a>, <a href="https://github.com/hackergarage/events"> new repo hosted at HackerGarage organization account </a> and <a href="http://alanturing.cucei.udg.mx/duke"> platform demo </a>	
-					</p>			
-				</div>																					
+		</div>
+		<div class="row-fluid">			
+			<div class="span1"></div>
+			<div class="well well-large span10">										
+				<h1 id="LTSP3" class="centered-text">LTSP3</h1>
+				<p>Description: LTSP stands for Linux Terminal Server Project and allows many people to simultaneously use the same computer. Applications run on the server with a terminal known as a thin client (also known as an X terminal) handling input and output.</p>
+				<p>Contribution: Complete setup and testing</p>
+				<p>Technologies: BASH</p>
+				<p>When: June 2012</p>
+				<p>More info: not available</p>
 			</div>
 		</div>
+		<div class="row-fluid">			
+			<div class="span1"></div>
+			<div class="well well-large span10">
+				<h1 id="udeg" class="centered-text">Scolarship Unit</h1>
+				<p>Description: Software for administration of scolarships and student exchanges at C.U.C.E.I.</p>
+				<p>Contribution: Complete development</p>
+				<p>Technologies: Java, JDBC, JasperReports, PostgreSQL</p>
+				<p>When: March 2011 - November 2011</p>
+				<p>More info: not available</p>
+			</div>		
+		</div>		
+		
+		
+		<div class="row-fluid">			
+			<div class="span1"></div>
+			<div class="well well-large span10">
+				<h1 id="sharealla" class="centered-text">Sharealla</h1>
+				<p>Description: Check-in and share the apps that matter to you</p>
+				<p>Contribution: Front-end maquetation</p>
+				<p>Technologies: HTML5, CCS3, Javascript</p>
+				<p>When: 14th february 2012 - 17th february 2012 during 2nd Startup Weekend GDL</p>
+				<p>More info: <a href="http://sharealla.com">www.sharealla.com</a></p>
+			</div>
+		</div>
+		<div class="row-fluid">			
+			<div class="span1"></div>
+			<div class="well well-large span10">
+				<h1 id="html5" class="centered-text">HTML5 training</h1>
+				<p>Description: Final actitivy for the Microsoft HTML5 Developer Fundamentals Training</p>
+				<p>Contribution: Complete development</p>
+				<p>Technologies: HTML5, CCS3, Javascript, jQuery</p>
+				<p>When: December 2011 - January 2012</p>
+				<p>More info: <a href="http://ferperales.comoj.com">http://ferperales.comoj.com</a></p>
+			</div>
+		</div>
+		<div class="row-fluid">			
+			<div class="span1"></div>
+			<div class="well well-large span10">
+				<h1 id="ceic" class="centered-text">NWN module</h1>
+				<p>Description: A Neverwinter Nights module as part of an investigation regarding decision making at C.E.I.C.</p>
+				<p>Contribution: Fix previous bugs and enhacement of the module</p>
+				<p>Technologies: NWNScript, Aurora Toolset</p>
+				<p>When: March 2012 - June 2012</p>
+				<p>More info: not available</p>
+			</div>
+		</div>		
+		
+		<div class="row-fluid">			
+			<div class="span1"></div>
+			<div class="well well-large span10">
+				<h1 id="memorama" class="centered-text">Memorama</h1>
+				<p>Description: </p>
+				<p>Contribution: Complete development</p>
+				<p>Technologies: C#</p>
+				<p>When: May 2012</p>
+				<p>More info: <a href="http://github.com/FerPerales/AndroidPairs">http://github.com/FerPerales/AndroidPairs</a></p>
+			</div>
+		</div>
+		<div class="row-fluid">			
+			<div class="span1"></div>
+			<div class="well well-large span10">
+				<h1 id="crossWords" class="centered-text">Cross words</h1>
+				<p>Description: A console cross-word game </p>
+				<p>Contribution: Complete development</p>
+				<p>Technologies: C#</p>
+				<p>When: May 2012</p>
+				<p>More info: not available</p>
+			</div>
+		</div>
+		<div class="row-fluid">			
+			<div class="span1"></div>
+			<div class="well well-large span10">
+				<h1 id="todoList" class="centered-text">ToDo list</h1>
+				<p>Description: A To-DO list inspired by one of the most useful apps I've used: Astrid</p>
+				<p>Contribution: Complete development</p>
+				<p>Technologies: C#, PostgreSQL</p>
+				<p>When: May 2012</p>
+				<p>More info: not available</p>		
+			</div>
+		</div>	
+			
+		<div class="row-fluid">			
+			<div class="span1"></div>
+			<div class="well well-large span10">
+				<h1 id="eventosHG" class="centered-text">Eventos HG (Hacker Garage)</h1>
+				<p>Description: An online platform for event registration created for the CC419 Web Programming course</p>
+				<p>Contribution: Complete development along with <a href="http://twitter.com/hawreghi">@hawreghi
+				</a> and <a href="http://twitter.com/alx_mz">@alx_mz</a></p>
+				<p>Technologies: HTML5, CSS3, JavaScript, Ajax, JQuery, MySQL, PHP, twitter API</p>
+				<p>When: August 2012 - December 2012</p>
+				<p>More info: 
+					<a href="https://github.com/FerPerales/CC419_D04_Eventos">main repo</a>, <a href="https://github.com/hackergarage/events"> new repo hosted at HackerGarage organization account </a> and <a href="http://alanturing.cucei.udg.mx/duke"> platform demo </a>	
+				</p>			
+			</div>																					
+		</div>
+	</div>
 <?php
 	$filename = new SplFileInfo(__FILE__);
 	require 'php/footer.php';
